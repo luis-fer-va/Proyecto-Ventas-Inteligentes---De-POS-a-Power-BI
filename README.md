@@ -19,8 +19,7 @@ Luego son cargados y transformados en SQL Server, y finalmente utilizados para c
 - **Dropbox**: Medio de sincronización para recibir los datos localmente.  
 - **SQL Server**: Base de datos de almacenamiento central y procesamiento.  
 - **Power BI**: Herramienta de visualización y análisis.  
-- **Python** *(opcional)*: Automatización del proceso de carga o transformación.  
-- **Power Automate / Task Scheduler**: Automatización de tareas.  
+- **Python**: Automatización del proceso de carga de datos.  
 - **Git & GitHub**: Control de versiones y documentación del proyecto.
 
 ---
