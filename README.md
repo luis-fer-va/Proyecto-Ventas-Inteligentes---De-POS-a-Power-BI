@@ -27,20 +27,21 @@ Luego son cargados y transformados en SQL Server, y finalmente utilizados para c
 
 ## 🧩 Estructura del Proyecto
 
-📁 ventas-inteligentes-pos-powerbi/
-├── 📁 data/
-│ └── base_datos_pos.sqlite
-├── 📁 src/
-│ └── scripts_etl/
-│ ├── extraccion.py
-│ ├── transformacion.sql
-│ └── carga.sql
-├── 📁 docs/
-│ ├── arquitectura.png
-│ ├── linaje_datos.md
-│ └── modelo_datos.pbix
-├── 📁 sql_server/
-│ └── scripts_creacion_tablas.sql
+```plaintext
+ventas-inteligentes-pos-powerbi/
+├── data/
+│   └── base_datos_pos.sqlite
+├── src/
+│   └── scripts_etl/
+│       ├── extraccion.py
+│       ├── transformacion.sql
+│       └── carga.sql
+├── docs/
+│   ├── arquitectura.png
+│   ├── linaje_datos.md
+│   └── modelo_datos.pbix
+├── sql_server/
+│   └── scripts_creacion_tablas.sql
 ├── README.md
 └── LICENSE
 
